@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.Grid td {
+  border: 2px solid white;
+  height: 25vh;
+  width: 25vh;
+}

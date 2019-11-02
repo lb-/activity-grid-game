@@ -1,24 +1,21 @@
 import React from 'react';
+import Tile from './Tile';
 import './Grid.css';
+
+const layout = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']];
 
 const Grid = () => (
   <div className="Grid">
     <table>
-      <tr>
-        <td>Top Left</td>
-        <td>Top Centre</td>
-        <td>Top Right</td>
-      </tr>
-      <tr>
-        <td>Middle Left</td>
-        <td>Middle Centre</td>
-        <td>Middle Right</td>
-      </tr>
-      <tr>
-        <td>Bottom Left</td>
-        <td>Bottom Centre</td>
-        <td>Bottom Right</td>
-      </tr>
+      {layout.map((tiles, index) => (
+        <tr key={index}>
+          {tiles.map(key => (
+            <td key={key}>
+              <Tile>{key}</Tile>
+            </td>
+          ))}
+        </tr>
+      ))}
     </table>
   </div>
 );

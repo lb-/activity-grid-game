@@ -1,0 +1,40 @@
+.Tile {
+  background: #eee;
+  border: none;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.connector {
+  position: absolute;
+}
+
+.connector.x {
+  background: blue;
+  height: 2vh;
+  top: 0;
+  width: 5vh;
+}
+
+.connector.y {
+  background: red;
+  bottom: 0;
+  height: 2vh;
+  left: 50%;
+  width: 5vh;
+}
+
+.connector.i {
+  background: yellow;
+  height: 5vh;
+  left: 0;
+  width: 2vh;
+}
+
+.connector.j {
+  background: green;
+  height: 5vh;
+  right: 0;
+  width: 2vh;
+}
