@@ -1,5 +1,6 @@
 .Tile {
-  background: #eee;
+  background-size: contain;
+  background-color: #eee;
   border: none;
   height: 100%;
   position: relative;
@@ -37,4 +38,11 @@
   height: 5vh;
   right: 0;
   width: 2vh;
+}
+
+.label {
+  background-color: #eee;
+  font-size: 1rem;
+  padding: 0.05rem;
+  text-transform: capitalize;
 }

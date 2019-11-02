@@ -19,9 +19,9 @@ const Grid = () => (
     <table>
       {layout.map((tiles, index) => (
         <tr key={index}>
-          {tiles.map(({ key }) => (
+          {tiles.map(({ image, key }) => (
             <td key={key}>
-              <Tile>{key}</Tile>
+              <Tile image={image}>{key}</Tile>
             </td>
           ))}
         </tr>

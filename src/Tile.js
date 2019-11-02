@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Tile.css';
 
-const Tile = ({ children }) => {
+const Tile = ({ children, image }) => {
   const [rotation, rotate] = useState(0);
 
   return (
@@ -25,7 +25,10 @@ const Tile = ({ children }) => {
             break;
         }
       }}
-      style={{ transform: `rotate(${rotation}deg)` }}
+      style={{
+        transform: `rotate(${rotation}deg)`,
+        backgroundImage: `url(${image})`
+      }}
     >
       <span className="label">{children}</span>
 
