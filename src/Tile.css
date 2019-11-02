@@ -9,6 +9,7 @@
 
 .connector {
   position: absolute;
+  border: 1px solid grey;
 }
 
 .connector.x {
@@ -16,6 +17,8 @@
   height: 2vh;
   top: 0;
   width: 5vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .connector.y {
@@ -24,6 +27,8 @@
   height: 2vh;
   left: 50%;
   width: 5vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .connector.i {
@@ -31,6 +36,8 @@
   height: 5vh;
   left: 0;
   width: 2vh;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .connector.j {
@@ -38,6 +45,8 @@
   height: 5vh;
   right: 0;
   width: 2vh;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .label {
