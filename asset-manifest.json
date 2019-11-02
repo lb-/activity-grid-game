@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/activity-grid-game/static/css/main.66790a3a.chunk.css",
+    "main.js": "/activity-grid-game/static/js/main.f8a92bef.chunk.js",
+    "main.js.map": "/activity-grid-game/static/js/main.f8a92bef.chunk.js.map",
+    "runtime-main.js": "/activity-grid-game/static/js/runtime-main.45351bd8.js",
+    "runtime-main.js.map": "/activity-grid-game/static/js/runtime-main.45351bd8.js.map",
+    "static/js/2.d4e43930.chunk.js": "/activity-grid-game/static/js/2.d4e43930.chunk.js",
+    "static/js/2.d4e43930.chunk.js.map": "/activity-grid-game/static/js/2.d4e43930.chunk.js.map",
+    "index.html": "/activity-grid-game/index.html",
+    "precache-manifest.2eeb545d27223ff44513ec94ccaacdc3.js": "/activity-grid-game/precache-manifest.2eeb545d27223ff44513ec94ccaacdc3.js",
+    "service-worker.js": "/activity-grid-game/service-worker.js",
+    "static/css/main.66790a3a.chunk.css.map": "/activity-grid-game/static/css/main.66790a3a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45351bd8.js",
+    "static/js/2.d4e43930.chunk.js",
+    "static/css/main.66790a3a.chunk.css",
+    "static/js/main.f8a92bef.chunk.js"
+  ]
+}
